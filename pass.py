@@ -19,14 +19,18 @@ print(" _| |_| | | | | | | |___| (_| |/ /| |_| |")
 print("|_____|_| |_| |_| |______\__,_/___|\__, |")
 print("                                    __/ |")
 print("                                   |___/ ")
-print("v. 1.1")
+print("v. 1.2")
 
 b = input("Enter ID: ")
 first = (b[0:2])
 a = (b[2:5])
 
 
-if first == "12" or "90":
+if first == "12":
+  print("This set of ID's hasnt been cracked yet...")
+  print("Support for 90, 12 will be coming soon")
+
+if first == "90":
   print("This set of ID's hasnt been cracked yet...")
   print("Support for 90, 12 will be coming soon")
 
